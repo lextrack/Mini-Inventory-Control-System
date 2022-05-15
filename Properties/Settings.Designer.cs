@@ -25,7 +25,7 @@ namespace Mini_Inventory_Control.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("es-ES")]
+        [global::System.Configuration.DefaultSettingValueAttribute("en-US")]
         public string Lenguajes {
             get {
                 return ((string)(this["Lenguajes"]));

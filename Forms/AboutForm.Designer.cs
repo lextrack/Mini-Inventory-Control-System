@@ -73,7 +73,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(127, 30);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Mini Inventory Control\r\nVersion 1.0.0";
+            this.label3.Text = "Mini Inventory Control\r\nVersion 1.0.1";
             // 
             // info1
             // 

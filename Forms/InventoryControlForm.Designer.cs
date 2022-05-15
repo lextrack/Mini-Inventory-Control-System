@@ -281,7 +281,7 @@ namespace Mini_Inventory_Control
             dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DataGridView1.Size = new System.Drawing.Size(1184, 279);
+            this.DataGridView1.Size = new System.Drawing.Size(1190, 279);
             this.DataGridView1.TabIndex = 33;
             this.DataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellEnter);
             // 
@@ -519,7 +519,7 @@ namespace Mini_Inventory_Control
             this.toolStripMenuItem4});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1184, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(1190, 25);
             this.menuStrip1.TabIndex = 4;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -625,7 +625,7 @@ namespace Mini_Inventory_Control
             this.Label5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Label5.Font = new System.Drawing.Font("Segoe UI", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Label5.ForeColor = System.Drawing.SystemColors.Control;
-            this.Label5.Location = new System.Drawing.Point(426, 2);
+            this.Label5.Location = new System.Drawing.Point(424, 2);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(347, 31);
@@ -641,7 +641,7 @@ namespace Mini_Inventory_Control
             this.Panel1.Location = new System.Drawing.Point(0, 0);
             this.Panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(1184, 37);
+            this.Panel1.Size = new System.Drawing.Size(1190, 37);
             this.Panel1.TabIndex = 1;
             // 
             // InventoryControlForm
@@ -651,7 +651,7 @@ namespace Mini_Inventory_Control
             this.AutoSize = true;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.ClientSize = new System.Drawing.Size(1184, 617);
+            this.ClientSize = new System.Drawing.Size(1190, 617);
             this.Controls.Add(this.btnUpdateData);
             this.Controls.Add(this.label14);
             this.Controls.Add(this.txtPoNumber);
