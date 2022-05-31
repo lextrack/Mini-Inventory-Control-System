@@ -10,10 +10,10 @@
     <ApplicationIcon>inventory.ico</ApplicationIcon>
     <Company>Lextrack</Company>
     <Copyright>Lextrack</Copyright>
-    <FileVersion>1.0.1</FileVersion>
+    <FileVersion>1.0.2</FileVersion>
     <Authors>Lextrack</Authors>
-    <AssemblyVersion>1.0.1</AssemblyVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2</AssemblyVersion>
+    <Version>1.0.2</Version>
     <UseWPF>True</UseWPF>
     <PlatformTarget>x64</PlatformTarget>
     <Configurations>Debug;Release</Configurations>
