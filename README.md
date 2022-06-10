@@ -1,10 +1,12 @@
 # MINI INVENTORY CONTROL
 
 
-[![inventoryinterface.jpg](https://i.postimg.cc/4Nyrc4bc/inventoryinterface.jpg)](https://postimg.cc/BXWY90zZ)
+[![inventory1-0-3.jpg](https://i.postimg.cc/SNTybYsn/inventory1-0-3.jpg)](https://postimg.cc/zVhmnBTN)
 
 ## What can I do with this software?
 You can manage your inventory and don’t need internet connection or SQL Server (Just Office installed on your PC). You can manage incoming products, outgoing products and the current quantity in your inventory. Also, you can record the location of the product, the price of every item and who put it into the system.
+
+If you need it, you can generate barcodes or QR codes to your product or packages.
 
 
 ## Requirements
