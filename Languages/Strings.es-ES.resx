@@ -135,6 +135,9 @@
   <data name="btnNuevoC" xml:space="preserve">
     <value>Limpiar todo</value>
   </data>
+  <data name="btnOpenCode" xml:space="preserve">
+    <value>Abrir un archivo</value>
+  </data>
   <data name="btnPrintDataOrder" xml:space="preserve">
     <value>Imprimir</value>
   </data>
@@ -152,6 +155,12 @@
   </data>
   <data name="exitApplicationToolStripMenuItem" xml:space="preserve">
     <value>Salir de la applicación</value>
+  </data>
+  <data name="generateBarcodeAndQRCodesToolStripMenuItem" xml:space="preserve">
+    <value>Generar códigos de barra y QR</value>
+  </data>
+  <data name="generateButton1" xml:space="preserve">
+    <value>Guardar</value>
   </data>
   <data name="Label10" xml:space="preserve">
     <value>UBICACIÓN</value>
@@ -181,7 +190,7 @@
     <value>SISTEMA DE CONTROL DE INVENTARIO</value>
   </data>
   <data name="Label6" xml:space="preserve">
-    <value>COLLABORATOR</value>
+    <value>COLABORADOR</value>
   </data>
   <data name="Label7" xml:space="preserve">
     <value>CANTIDADES SALIENTES</value>
@@ -219,6 +228,21 @@
   <data name="LabelUNIT" xml:space="preserve">
     <value>PRECIO UNITARIO</value>
   </data>
+  <data name="lbBar" xml:space="preserve">
+    <value>Código de barra:</value>
+  </data>
+  <data name="lbQr" xml:space="preserve">
+    <value>QR:</value>
+  </data>
+  <data name="leerUnCódigoQRODeBarraToolStripMenuItem" xml:space="preserve">
+    <value>Escanear un QR</value>
+  </data>
+  <data name="leerUnCódigoToolStripMenuItem" xml:space="preserve">
+    <value>Opciones</value>
+  </data>
+  <data name="MainWindowBarQr" xml:space="preserve">
+    <value>Generador de códigos QR y de barra</value>
+  </data>
   <data name="message1" xml:space="preserve">
     <value>Ha ocurrido un error. El archivo de Excel no fue encontrado o Microsoft Office no esta instalado</value>
   </data>
@@ -240,11 +264,17 @@
   <data name="message7" xml:space="preserve">
     <value>No hay datos para imprimir</value>
   </data>
+  <data name="OpenCodeForm" xml:space="preserve">
+    <value>Escaneador de códigos QR</value>
+  </data>
   <data name="optionsToolStripMenuItem" xml:space="preserve">
     <value>Opciones</value>
   </data>
   <data name="purchaseOrdersToolStripMenuItem" xml:space="preserve">
     <value>Ordenes de compra</value>
+  </data>
+  <data name="salirDeLaAplicaciónToolStripMenuItem" xml:space="preserve">
+    <value>Salir</value>
   </data>
   <data name="titleinventory" xml:space="preserve">
     <value>Sistema de control de inventario</value>

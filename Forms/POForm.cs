@@ -1,11 +1,10 @@
 ﻿using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using Mini_Inventory_Control.Forms;
+using Mini_Inventory_Control.Properties;
 using System.Data;
 using System.Diagnostics;
 using System.IO;
-using Mini_Inventory_Control.Languages;
-using Mini_Inventory_Control.Properties;
 using Strings = Mini_Inventory_Control.Languages.Strings;
 
 namespace Mini_Inventory_Control
@@ -20,7 +19,7 @@ namespace Mini_Inventory_Control
         public Microsoft.Office.Interop.Excel.Application xlibro;
         private void POForm_Load(object sender, EventArgs e)
         {
-            
+
             Connections.OpenConnection();
             CheckDGV2();
             GetTextsMain();

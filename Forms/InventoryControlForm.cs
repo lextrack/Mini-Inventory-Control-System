@@ -1,3 +1,4 @@
+using c_sahrp;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 using Mini_Inventory_Control.Forms;
@@ -237,12 +238,13 @@ namespace Mini_Inventory_Control
             Application.Restart();
         }
 
-        private void purchaseOrdersToolStripMenuItem_Click(object sender, EventArgs e)
+        /*private void purchaseOrdersToolStripMenuItem_Click(object sender, EventArgs e)
         {
             POForm POForm = new();
             POForm.ShowDialog();
-        }
+        }*/
 
+        #region PrintCode
         private void toolStripMenuItem3_Click(object sender, EventArgs e)
         {
             try
@@ -271,7 +273,9 @@ namespace Mini_Inventory_Control
             }
 
         }
+        #endregion
 
+        #region TranslationCode
         public void GetTextsMain()
         {
             Thread.CurrentThread.CurrentUICulture = new System.Globalization.CultureInfo(Settings.Default.Lenguajes);
@@ -295,12 +299,12 @@ namespace Mini_Inventory_Control
             btnBuscarIn.Text = Strings.btnBuscarIn;
             Label5.Text = Strings.Label5;
             optionsToolStripMenuItem.Text = Strings.optionsToolStripMenuItem;
-            purchaseOrdersToolStripMenuItem.Text = Strings.purchaseOrdersToolStripMenuItem;
             toolStripMenuItem4.Text = Strings.toolStripMenuItem4;
             toolStripMenuItem3.Text = Strings.toolStripMenuItem3;
             toolStripMenuItem2.Text = Strings.toolStripMenuItem2;
             toolStripMenuItem1.Text = Strings.toolStripMenuItem1;
             exitApplicationToolStripMenuItem.Text = Strings.exitApplicationToolStripMenuItem;
+            generateBarcodeAndQRCodesToolStripMenuItem.Text = Strings.generateBarcodeAndQRCodesToolStripMenuItem;
             this.Text = Strings.titleinventory;
         }
 
@@ -319,6 +323,12 @@ namespace Mini_Inventory_Control
         private void InventoryControlForm_FormClosed(object sender, FormClosedEventArgs e)
         {
             Settings.Default.Save();
+        }
+        #endregion
+        private void generateBarcodeAndQRCodesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MainWindowBarQr NewMainWindowBarQr = new MainWindowBarQr();
+            NewMainWindowBarQr.ShowDialog();
         }
     }
 }

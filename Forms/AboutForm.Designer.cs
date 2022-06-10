@@ -73,7 +73,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(127, 30);
             this.label3.TabIndex = 2;
-            this.label3.Text = "Mini Inventory Control\r\nVersion 1.0.2";
+            this.label3.Text = "Mini Inventory Control\r\nVersion 1.0.3";
             // 
             // info1
             // 
@@ -96,7 +96,7 @@
             this.info2.Name = "info2";
             this.info2.Size = new System.Drawing.Size(182, 30);
             this.info2.TabIndex = 4;
-            this.info2.Text = "This software is made possible by\r\nTutorialesVbNET and Wanicon.";
+            this.info2.Text = "This software is made possible by\r\nTutorialesVbNET and Flaticon.";
             // 
             // AboutForm
             // 

@@ -64,6 +64,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="zxing">
+      <HintPath>bin\Release\net6.0-windows10.0.22000.0\zxing.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Languages\Strings.es-ES.Designer.cs">
       <DependentUpon>Strings.es-ES.resx</DependentUpon>
       <DesignTime>True</DesignTime>

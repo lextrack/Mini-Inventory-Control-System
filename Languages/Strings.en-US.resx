@@ -135,6 +135,9 @@
   <data name="btnNuevoC" xml:space="preserve">
     <value>Clear All</value>
   </data>
+  <data name="btnOpenCode" xml:space="preserve">
+    <value>Open file</value>
+  </data>
   <data name="btnPrintDataOrder" xml:space="preserve">
     <value>Print</value>
   </data>
@@ -152,6 +155,12 @@
   </data>
   <data name="exitApplicationToolStripMenuItem" xml:space="preserve">
     <value>Exit application</value>
+  </data>
+  <data name="generateBarcodeAndQRCodesToolStripMenuItem" xml:space="preserve">
+    <value>Generate barcode and QR codes</value>
+  </data>
+  <data name="generateButton1" xml:space="preserve">
+    <value>Save</value>
   </data>
   <data name="Label10" xml:space="preserve">
     <value>LOCATION</value>
@@ -219,6 +228,21 @@
   <data name="LabelUNIT" xml:space="preserve">
     <value>UNIT PRICE</value>
   </data>
+  <data name="lbBar" xml:space="preserve">
+    <value>Barcode:</value>
+  </data>
+  <data name="lbQr" xml:space="preserve">
+    <value>QR:</value>
+  </data>
+  <data name="leerUnCódigoQRODeBarraToolStripMenuItem" xml:space="preserve">
+    <value>Scan QR codes</value>
+  </data>
+  <data name="leerUnCódigoToolStripMenuItem" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="MainWindowBarQr" xml:space="preserve">
+    <value>Barcode and QR code generator</value>
+  </data>
   <data name="message1" xml:space="preserve">
     <value>An error has occurred. The Workbook file is not found or Microsoft Office is not installed</value>
   </data>
@@ -240,11 +264,17 @@
   <data name="message7" xml:space="preserve">
     <value>No data for printing</value>
   </data>
+  <data name="OpenCodeForm" xml:space="preserve">
+    <value>QR code scanner</value>
+  </data>
   <data name="optionsToolStripMenuItem" xml:space="preserve">
     <value>Options</value>
   </data>
   <data name="purchaseOrdersToolStripMenuItem" xml:space="preserve">
     <value>Purchase orders</value>
+  </data>
+  <data name="salirDeLaAplicaciónToolStripMenuItem" xml:space="preserve">
+    <value>Exit</value>
   </data>
   <data name="titleinventory" xml:space="preserve">
     <value>Inventory Control System</value>

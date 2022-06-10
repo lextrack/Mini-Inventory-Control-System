@@ -502,5 +502,86 @@ namespace Mini_Inventory_Control.Languages {
             }
 
         }
+
+        internal static string lbBar
+        {
+            get
+            {
+                return ResourceManager.GetString("lbBar", resourceCulture);
+            }
+
+        }
+
+        internal static string leerUnCódigoQRODeBarraToolStripMenuItem
+        {
+            get
+            {
+                return ResourceManager.GetString("leerUnCódigoQRODeBarraToolStripMenuItem", resourceCulture);
+            }
+
+        }
+
+        internal static string leerUnCódigoToolStripMenuItem
+        {
+            get
+            {
+                return ResourceManager.GetString("leerUnCódigoToolStripMenuItem", resourceCulture);
+            }
+
+        }
+
+        internal static string generateButton1
+        {
+            get
+            {
+                return ResourceManager.GetString("generateButton1", resourceCulture);
+            }
+
+        }
+
+        internal static string generateBarcodeAndQRCodesToolStripMenuItem
+        {
+            get
+            {
+                return ResourceManager.GetString("generateBarcodeAndQRCodesToolStripMenuItem", resourceCulture);
+            }
+
+        }
+
+        internal static string MainWindowBarQr
+        {
+            get
+            {
+                return ResourceManager.GetString("MainWindowBarQr", resourceCulture);
+            }
+
+        }
+
+        internal static string salirDeLaAplicaciónToolStripMenuItem
+        {
+            get
+            {
+                return ResourceManager.GetString("salirDeLaAplicaciónToolStripMenuItem", resourceCulture);
+            }
+
+        }
+
+        internal static string OpenCodeForm
+        {
+            get
+            {
+                return ResourceManager.GetString("OpenCodeForm", resourceCulture);
+            }
+
+        }
+
+        internal static string btnOpenCode
+        {
+            get
+            {
+                return ResourceManager.GetString("btnOpenCode", resourceCulture);
+            }
+
+        }
     }
 }

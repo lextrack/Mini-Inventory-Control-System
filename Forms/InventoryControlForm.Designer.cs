@@ -84,7 +84,7 @@ namespace Mini_Inventory_Control
             this.toolStripMenuItem4 = new System.Windows.Forms.ToolStripMenuItem();
             this.españolToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.englishToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.purchaseOrdersToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.generateBarcodeAndQRCodesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Label5 = new System.Windows.Forms.Label();
             this.Panel1 = new System.Windows.Forms.Panel();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridView1)).BeginInit();
@@ -94,15 +94,19 @@ namespace Mini_Inventory_Control
             // 
             // btnEliminarS
             // 
-            this.btnEliminarS.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnEliminarS.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarS.FlatAppearance.BorderSize = 2;
+            this.btnEliminarS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnEliminarS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnEliminarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminarS.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnEliminarS.Location = new System.Drawing.Point(1007, 60);
+            this.btnEliminarS.ForeColor = System.Drawing.Color.Transparent;
+            this.btnEliminarS.Location = new System.Drawing.Point(1006, 59);
             this.btnEliminarS.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnEliminarS.Name = "btnEliminarS";
-            this.btnEliminarS.Size = new System.Drawing.Size(172, 31);
+            this.btnEliminarS.Size = new System.Drawing.Size(174, 31);
             this.btnEliminarS.TabIndex = 14;
-            this.btnEliminarS.Text = "Delete from the inventory";
+            this.btnEliminarS.Text = "Delete";
             this.btnEliminarS.UseVisualStyleBackColor = true;
             this.btnEliminarS.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
@@ -129,10 +133,14 @@ namespace Mini_Inventory_Control
             // 
             // btnGuardarS
             // 
-            this.btnGuardarS.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnGuardarS.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGuardarS.FlatAppearance.BorderSize = 2;
+            this.btnGuardarS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnGuardarS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnGuardarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarS.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnGuardarS.Location = new System.Drawing.Point(825, 60);
+            this.btnGuardarS.ForeColor = System.Drawing.Color.Transparent;
+            this.btnGuardarS.Location = new System.Drawing.Point(824, 59);
             this.btnGuardarS.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnGuardarS.Name = "btnGuardarS";
             this.btnGuardarS.Size = new System.Drawing.Size(174, 31);
@@ -143,13 +151,17 @@ namespace Mini_Inventory_Control
             // 
             // btnNuevoC
             // 
-            this.btnNuevoC.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnNuevoC.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnNuevoC.FlatAppearance.BorderSize = 2;
+            this.btnNuevoC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnNuevoC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnNuevoC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevoC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnNuevoC.Location = new System.Drawing.Point(1007, 105);
+            this.btnNuevoC.ForeColor = System.Drawing.Color.Transparent;
+            this.btnNuevoC.Location = new System.Drawing.Point(1006, 104);
             this.btnNuevoC.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnNuevoC.Name = "btnNuevoC";
-            this.btnNuevoC.Size = new System.Drawing.Size(172, 32);
+            this.btnNuevoC.Size = new System.Drawing.Size(174, 31);
             this.btnNuevoC.TabIndex = 13;
             this.btnNuevoC.Text = "Clear All";
             this.btnNuevoC.UseVisualStyleBackColor = true;
@@ -361,13 +373,17 @@ namespace Mini_Inventory_Control
             // 
             // btnSearchIn
             // 
-            this.btnSearchIn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnSearchIn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnSearchIn.FlatAppearance.BorderSize = 2;
+            this.btnSearchIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnSearchIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnSearchIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSearchIn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnSearchIn.Location = new System.Drawing.Point(825, 300);
+            this.btnSearchIn.ForeColor = System.Drawing.Color.Transparent;
+            this.btnSearchIn.Location = new System.Drawing.Point(824, 300);
             this.btnSearchIn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnSearchIn.Name = "btnSearchIn";
-            this.btnSearchIn.Size = new System.Drawing.Size(176, 32);
+            this.btnSearchIn.Size = new System.Drawing.Size(174, 31);
             this.btnSearchIn.TabIndex = 18;
             this.btnSearchIn.Text = "Search item in inventory";
             this.btnSearchIn.UseVisualStyleBackColor = true;
@@ -375,13 +391,17 @@ namespace Mini_Inventory_Control
             // 
             // btnBuscarIn
             // 
-            this.btnBuscarIn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnBuscarIn.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnBuscarIn.FlatAppearance.BorderSize = 2;
+            this.btnBuscarIn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnBuscarIn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnBuscarIn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnBuscarIn.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btnBuscarIn.ForeColor = System.Drawing.Color.Transparent;
             this.btnBuscarIn.Location = new System.Drawing.Point(1009, 300);
             this.btnBuscarIn.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnBuscarIn.Name = "btnBuscarIn";
-            this.btnBuscarIn.Size = new System.Drawing.Size(170, 32);
+            this.btnBuscarIn.Size = new System.Drawing.Size(174, 31);
             this.btnBuscarIn.TabIndex = 17;
             this.btnBuscarIn.Text = "Search collaborator";
             this.btnBuscarIn.UseVisualStyleBackColor = true;
@@ -393,7 +413,7 @@ namespace Mini_Inventory_Control
             this.txtBuscarD.Location = new System.Drawing.Point(825, 255);
             this.txtBuscarD.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBuscarD.Name = "txtBuscarD";
-            this.txtBuscarD.Size = new System.Drawing.Size(176, 25);
+            this.txtBuscarD.Size = new System.Drawing.Size(173, 25);
             this.txtBuscarD.TabIndex = 12;
             // 
             // txtBuscar
@@ -402,7 +422,7 @@ namespace Mini_Inventory_Control
             this.txtBuscar.Location = new System.Drawing.Point(1009, 255);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.txtBuscar.Name = "txtBuscar";
-            this.txtBuscar.Size = new System.Drawing.Size(170, 25);
+            this.txtBuscar.Size = new System.Drawing.Size(173, 25);
             this.txtBuscar.TabIndex = 13;
             // 
             // Label9
@@ -410,7 +430,7 @@ namespace Mini_Inventory_Control
             this.Label9.AutoSize = true;
             this.Label9.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label9.ForeColor = System.Drawing.SystemColors.Control;
-            this.Label9.Location = new System.Drawing.Point(1007, 235);
+            this.Label9.Location = new System.Drawing.Point(1014, 235);
             this.Label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label9.Name = "Label9";
             this.Label9.Size = new System.Drawing.Size(165, 17);
@@ -496,10 +516,14 @@ namespace Mini_Inventory_Control
             // 
             // btnUpdateData
             // 
-            this.btnUpdateData.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnUpdateData.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnUpdateData.FlatAppearance.BorderSize = 2;
+            this.btnUpdateData.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnUpdateData.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnUpdateData.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUpdateData.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnUpdateData.Location = new System.Drawing.Point(825, 105);
+            this.btnUpdateData.ForeColor = System.Drawing.Color.Transparent;
+            this.btnUpdateData.Location = new System.Drawing.Point(824, 104);
             this.btnUpdateData.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.btnUpdateData.Name = "btnUpdateData";
             this.btnUpdateData.Size = new System.Drawing.Size(174, 31);
@@ -515,7 +539,7 @@ namespace Mini_Inventory_Control
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.optionsToolStripMenuItem,
             this.toolStripMenuItem4,
-            this.purchaseOrdersToolStripMenuItem});
+            this.generateBarcodeAndQRCodesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1190, 25);
@@ -607,15 +631,14 @@ namespace Mini_Inventory_Control
             this.englishToolStripMenuItem.Text = "English";
             this.englishToolStripMenuItem.Click += new System.EventHandler(this.englishToolStripMenuItem_Click);
             // 
-            // purchaseOrdersToolStripMenuItem
+            // generateBarcodeAndQRCodesToolStripMenuItem
             // 
-            this.purchaseOrdersToolStripMenuItem.Enabled = false;
-            this.purchaseOrdersToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.purchaseOrdersToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
-            this.purchaseOrdersToolStripMenuItem.Name = "purchaseOrdersToolStripMenuItem";
-            this.purchaseOrdersToolStripMenuItem.Size = new System.Drawing.Size(118, 21);
-            this.purchaseOrdersToolStripMenuItem.Text = "Purchase orders";
-            this.purchaseOrdersToolStripMenuItem.Click += new System.EventHandler(this.purchaseOrdersToolStripMenuItem_Click);
+            this.generateBarcodeAndQRCodesToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.generateBarcodeAndQRCodesToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
+            this.generateBarcodeAndQRCodesToolStripMenuItem.Name = "generateBarcodeAndQRCodesToolStripMenuItem";
+            this.generateBarcodeAndQRCodesToolStripMenuItem.Size = new System.Drawing.Size(216, 21);
+            this.generateBarcodeAndQRCodesToolStripMenuItem.Text = "Generate barcode and QR codes";
+            this.generateBarcodeAndQRCodesToolStripMenuItem.Click += new System.EventHandler(this.generateBarcodeAndQRCodesToolStripMenuItem_Click);
             // 
             // Label5
             // 
@@ -744,12 +767,12 @@ namespace Mini_Inventory_Control
         private ToolStripMenuItem toolStripMenuItem2;
         private ToolStripMenuItem toolStripMenuItem1;
         private ToolStripMenuItem exitApplicationToolStripMenuItem;
-        private ToolStripMenuItem purchaseOrdersToolStripMenuItem;
         internal Label Label5;
         internal Panel Panel1;
         private ToolStripMenuItem toolStripMenuItem4;
         private ToolStripMenuItem españolToolStripMenuItem;
         private ToolStripMenuItem englishToolStripMenuItem;
         public Label Label8;
+        private ToolStripMenuItem generateBarcodeAndQRCodesToolStripMenuItem;
     }
 }
