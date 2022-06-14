@@ -51,10 +51,11 @@
             // lbQr
             // 
             this.lbQr.AutoSize = true;
+            this.lbQr.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbQr.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbQr.Location = new System.Drawing.Point(382, 34);
+            this.lbQr.Location = new System.Drawing.Point(382, 39);
             this.lbQr.Name = "lbQr";
-            this.lbQr.Size = new System.Drawing.Size(41, 25);
+            this.lbQr.Size = new System.Drawing.Size(36, 21);
             this.lbQr.TabIndex = 0;
             this.lbQr.Text = "QR:";
             // 
@@ -74,7 +75,7 @@
             this.generateButton1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
             this.generateButton1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
             this.generateButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.generateButton1.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.generateButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.generateButton1.ForeColor = System.Drawing.Color.Transparent;
             this.generateButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.generateButton1.Location = new System.Drawing.Point(243, 118);
@@ -96,10 +97,11 @@
             // lbBar
             // 
             this.lbBar.AutoSize = true;
+            this.lbBar.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbBar.ForeColor = System.Drawing.SystemColors.Control;
-            this.lbBar.Location = new System.Drawing.Point(12, 34);
+            this.lbBar.Location = new System.Drawing.Point(12, 39);
             this.lbBar.Name = "lbBar";
-            this.lbBar.Size = new System.Drawing.Size(85, 25);
+            this.lbBar.Size = new System.Drawing.Size(75, 21);
             this.lbBar.TabIndex = 11;
             this.lbBar.Text = "Barcode:";
             // 
@@ -110,7 +112,7 @@
             this.leerUnCódigoToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(742, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(742, 25);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -118,14 +120,16 @@
             // 
             this.leerUnCódigoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.leerUnCódigoQRODeBarraToolStripMenuItem});
+            this.leerUnCódigoToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.leerUnCódigoToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.leerUnCódigoToolStripMenuItem.Name = "leerUnCódigoToolStripMenuItem";
-            this.leerUnCódigoToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
+            this.leerUnCódigoToolStripMenuItem.Size = new System.Drawing.Size(66, 21);
             this.leerUnCódigoToolStripMenuItem.Text = "Options";
             // 
             // leerUnCódigoQRODeBarraToolStripMenuItem
             // 
             this.leerUnCódigoQRODeBarraToolStripMenuItem.BackColor = System.Drawing.Color.Gray;
+            this.leerUnCódigoQRODeBarraToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.leerUnCódigoQRODeBarraToolStripMenuItem.Name = "leerUnCódigoQRODeBarraToolStripMenuItem";
             this.leerUnCódigoQRODeBarraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.leerUnCódigoQRODeBarraToolStripMenuItem.Text = "Scan QR codes";

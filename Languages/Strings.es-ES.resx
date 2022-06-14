@@ -154,7 +154,7 @@
     <value>Actualizar datos</value>
   </data>
   <data name="exitApplicationToolStripMenuItem" xml:space="preserve">
-    <value>Salir de la applicación</value>
+    <value>Salir de la aplicación</value>
   </data>
   <data name="generateBarcodeAndQRCodesToolStripMenuItem" xml:space="preserve">
     <value>Generar códigos de barra y QR</value>
@@ -184,7 +184,7 @@
     <value>CANTIDADES ENTRANTES</value>
   </data>
   <data name="Label4" xml:space="preserve">
-    <value>FECHA</value>
+    <value>FECHA DE ENTRADA</value>
   </data>
   <data name="Label5" xml:space="preserve">
     <value>SISTEMA DE CONTROL DE INVENTARIO</value>

@@ -96,8 +96,8 @@ namespace Mini_Inventory_Control
             // 
             this.btnEliminarS.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnEliminarS.FlatAppearance.BorderSize = 2;
-            this.btnEliminarS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnEliminarS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnEliminarS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Crimson;
+            this.btnEliminarS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Crimson;
             this.btnEliminarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEliminarS.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnEliminarS.ForeColor = System.Drawing.Color.Transparent;
@@ -124,6 +124,7 @@ namespace Mini_Inventory_Control
             // 
             // txtColaborador
             // 
+            this.txtColaborador.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtColaborador.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtColaborador.Location = new System.Drawing.Point(434, 108);
             this.txtColaborador.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -135,8 +136,8 @@ namespace Mini_Inventory_Control
             // 
             this.btnGuardarS.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnGuardarS.FlatAppearance.BorderSize = 2;
-            this.btnGuardarS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnGuardarS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnGuardarS.FlatAppearance.MouseDownBackColor = System.Drawing.Color.ForestGreen;
+            this.btnGuardarS.FlatAppearance.MouseOverBackColor = System.Drawing.Color.ForestGreen;
             this.btnGuardarS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuardarS.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnGuardarS.ForeColor = System.Drawing.Color.Transparent;
@@ -153,8 +154,8 @@ namespace Mini_Inventory_Control
             // 
             this.btnNuevoC.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btnNuevoC.FlatAppearance.BorderSize = 2;
-            this.btnNuevoC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.CornflowerBlue;
-            this.btnNuevoC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.CornflowerBlue;
+            this.btnNuevoC.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkSlateBlue;
+            this.btnNuevoC.FlatAppearance.MouseOverBackColor = System.Drawing.Color.DarkSlateBlue;
             this.btnNuevoC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnNuevoC.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnNuevoC.ForeColor = System.Drawing.Color.Transparent;
@@ -194,6 +195,7 @@ namespace Mini_Inventory_Control
             // 
             // txtCantidad_entradas
             // 
+            this.txtCantidad_entradas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCantidad_entradas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCantidad_entradas.Location = new System.Drawing.Point(13, 155);
             this.txtCantidad_entradas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -215,6 +217,7 @@ namespace Mini_Inventory_Control
             // 
             // txtDescripcion
             // 
+            this.txtDescripcion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtDescripcion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtDescripcion.Location = new System.Drawing.Point(13, 108);
             this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -236,6 +239,7 @@ namespace Mini_Inventory_Control
             // 
             // txtID
             // 
+            this.txtID.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtID.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtID.Location = new System.Drawing.Point(13, 60);
             this.txtID.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -310,6 +314,7 @@ namespace Mini_Inventory_Control
             // 
             // txtCantidad_salidas
             // 
+            this.txtCantidad_salidas.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtCantidad_salidas.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtCantidad_salidas.Location = new System.Drawing.Point(13, 204);
             this.txtCantidad_salidas.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -331,6 +336,7 @@ namespace Mini_Inventory_Control
             // 
             // txtPrecio_compra
             // 
+            this.txtPrecio_compra.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPrecio_compra.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtPrecio_compra.Location = new System.Drawing.Point(434, 60);
             this.txtPrecio_compra.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -352,6 +358,7 @@ namespace Mini_Inventory_Control
             // 
             // txtUbicacion
             // 
+            this.txtUbicacion.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtUbicacion.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtUbicacion.Location = new System.Drawing.Point(434, 155);
             this.txtUbicacion.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -409,6 +416,7 @@ namespace Mini_Inventory_Control
             // 
             // txtBuscarD
             // 
+            this.txtBuscarD.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtBuscarD.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBuscarD.Location = new System.Drawing.Point(825, 255);
             this.txtBuscarD.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -418,6 +426,7 @@ namespace Mini_Inventory_Control
             // 
             // txtBuscar
             // 
+            this.txtBuscar.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtBuscar.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtBuscar.Location = new System.Drawing.Point(1009, 255);
             this.txtBuscar.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -465,6 +474,7 @@ namespace Mini_Inventory_Control
             // 
             // txtReport
             // 
+            this.txtReport.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtReport.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtReport.Location = new System.Drawing.Point(12, 304);
             this.txtReport.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -486,6 +496,7 @@ namespace Mini_Inventory_Control
             // 
             // txtSupplier
             // 
+            this.txtSupplier.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtSupplier.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtSupplier.Location = new System.Drawing.Point(12, 255);
             this.txtSupplier.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -507,6 +518,7 @@ namespace Mini_Inventory_Control
             // 
             // txtPoNumber
             // 
+            this.txtPoNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.txtPoNumber.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.txtPoNumber.Location = new System.Drawing.Point(433, 255);
             this.txtPoNumber.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -535,7 +547,7 @@ namespace Mini_Inventory_Control
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Brown;
-            this.menuStrip1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.menuStrip1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.optionsToolStripMenuItem,
             this.toolStripMenuItem4,
