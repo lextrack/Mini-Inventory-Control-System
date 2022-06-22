@@ -1,7 +1,7 @@
 ﻿using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
-using Mini_Inventory_Control.Forms;
 using Mini_Inventory_Control.Properties;
+using Mini_Inventory_Control.UI;
 using System.Data;
 using System.Diagnostics;
 using System.IO;
@@ -20,7 +20,7 @@ namespace Mini_Inventory_Control
         private void POForm_Load(object sender, EventArgs e)
         {
 
-            Connections.OpenConnection();
+            Connection.OpenConnection();
             CheckDGV2();
             GetTextsMain();
         }
@@ -29,9 +29,9 @@ namespace Mini_Inventory_Control
         {
             try
             {
-                if (Connections.Conexion.State == ConnectionState.Closed)
+                if (Connection.Conexion.State == ConnectionState.Closed)
                 {
-                    Connections.Conexion.Open();
+                    Connection.Conexion.Open();
                 }
             }
             catch (Exception)
@@ -40,7 +40,7 @@ namespace Mini_Inventory_Control
                 MessageBox.Show("You will not be able to save data in the inventory.", "Error");
             }
 
-            var ca = new System.Data.OleDb.OleDbDataAdapter("select * from [orders$] where supplier like'%" + txtSearchS.Text + "%'", Connections.Conexion);
+            var ca = new System.Data.OleDb.OleDbDataAdapter("select * from [orders$] where supplier like'%" + txtSearchS.Text + "%'", Connection.Conexion);
             var cb = new DataSet();
             ca.Fill(cb);
             if (cb.Tables[0].Rows.Count > 0)
@@ -52,7 +52,7 @@ namespace Mini_Inventory_Control
                 DataGridView2.DataSource = null;
             }
 
-            Connections.Conexion.Close();
+            Connection.Conexion.Close();
         }
 
         public static void KillExcelProcess()

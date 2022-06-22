@@ -1,6 +1,6 @@
 ﻿namespace c_sahrp
 {
-    partial class MainWindowBarQr
+    partial class BarQrMainWindow
     {
         /// <summary>
         /// Variable del diseñador requerida.
@@ -26,7 +26,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainWindowBarQr));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BarQrMainWindow));
             this.txtQr = new System.Windows.Forms.TextBox();
             this.lbQr = new System.Windows.Forms.Label();
             this.pbgenerar = new System.Windows.Forms.PictureBox();

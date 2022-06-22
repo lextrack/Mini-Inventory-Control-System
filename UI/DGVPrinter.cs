@@ -9,7 +9,7 @@ using System.Windows.Forms.VisualStyles;
 
 
 //[module:CLSCompliant(true)]
-namespace Mini_Inventory_Control.Forms //AllocationRequest
+namespace Mini_Inventory_Control.UI //AllocationRequest
 {
     #region Supporting Classes
 

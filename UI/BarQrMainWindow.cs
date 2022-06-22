@@ -5,9 +5,9 @@ using Strings = Mini_Inventory_Control.Languages.Strings;
 
 namespace c_sahrp
 {
-    public partial class MainWindowBarQr : Form
+    public partial class BarQrMainWindow : Form
     {
-        public MainWindowBarQr()
+        public BarQrMainWindow()
         {
             InitializeComponent();
         }

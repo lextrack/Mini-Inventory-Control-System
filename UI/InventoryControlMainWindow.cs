@@ -1,8 +1,8 @@
 using c_sahrp;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
-using Mini_Inventory_Control.Forms;
 using Mini_Inventory_Control.Properties;
+using Mini_Inventory_Control.UI;
 using System.Data;
 using System.Diagnostics;
 using System.IO;
@@ -10,9 +10,9 @@ using Strings = Mini_Inventory_Control.Languages.Strings;
 
 namespace Mini_Inventory_Control
 {
-    public partial class InventoryControlForm
+    public partial class InventoryControlMainWindow
     {
-        public InventoryControlForm()
+        public InventoryControlMainWindow()
         {
             InitializeComponent();
         }
@@ -21,7 +21,7 @@ namespace Mini_Inventory_Control
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            Connections.OpenConnection();
+            Connection.OpenConnection();
             CheckDGV();
             GetTextsMain();
         }
@@ -30,9 +30,9 @@ namespace Mini_Inventory_Control
         {
             try
             {
-                if (Connections.Conexion.State == ConnectionState.Closed)
+                if (Connection.Conexion.State == ConnectionState.Closed)
                 {
-                    Connections.Conexion.Open();
+                    Connection.Conexion.Open();
                 }
             }
             catch (Exception)
@@ -40,7 +40,7 @@ namespace Mini_Inventory_Control
                 MessageBox.Show(Strings.message1, "Error");
             }
 
-            var da = new System.Data.OleDb.OleDbDataAdapter("select * from [datos$] where collaborator like'%" + txtBuscar.Text + "%'", Connections.Conexion);
+            var da = new System.Data.OleDb.OleDbDataAdapter("select * from [datos$] where collaborator like'%" + txtBuscar.Text + "%'", Connection.Conexion);
             var ds = new DataSet();
             da.Fill(ds);
             if (ds.Tables[0].Rows.Count > 0)
@@ -52,7 +52,7 @@ namespace Mini_Inventory_Control
                 DataGridView1.DataSource = null;
             }
 
-            Connections.Conexion.Close();
+            Connection.Conexion.Close();
         }
 
         //save button
@@ -199,7 +199,7 @@ namespace Mini_Inventory_Control
         #region Button search item name
         private void button3_Click(object sender, EventArgs e)
         {
-            var de = new System.Data.OleDb.OleDbDataAdapter("select * from [datos$] where description like'%" + txtBuscarD.Text + "%'", Connections.Conexion);
+            var de = new System.Data.OleDb.OleDbDataAdapter("select * from [datos$] where description like'%" + txtBuscarD.Text + "%'", Connection.Conexion);
             var df = new DataSet();
             de.Fill(df);
             if (df.Tables[0].Rows.Count > 0)
@@ -211,7 +211,7 @@ namespace Mini_Inventory_Control
                 DataGridView1.DataSource = null;
             }
 
-            Connections.Conexion.Close();
+            Connection.Conexion.Close();
 
         }
         #endregion
@@ -327,7 +327,7 @@ namespace Mini_Inventory_Control
         #endregion
         private void generateBarcodeAndQRCodesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            MainWindowBarQr NewMainWindowBarQr = new MainWindowBarQr();
+            BarQrMainWindow NewMainWindowBarQr = new BarQrMainWindow();
             NewMainWindowBarQr.ShowDialog();
         }
     }

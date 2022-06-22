@@ -1,6 +1,6 @@
-﻿namespace Mini_Inventory_Control.Forms
+﻿namespace Mini_Inventory_Control.UI
 {
-    static class Connections
+    static class Connection
     {
         private static string cadena = "provider=Microsoft.ACE.OLEDB.12.0;Data Source='database.xlsm';Extended Properties='Excel 8.0;IMEX=1;';";
         public static System.Data.OleDb.OleDbConnection Conexion;

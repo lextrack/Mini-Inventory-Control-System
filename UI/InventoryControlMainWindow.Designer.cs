@@ -6,7 +6,7 @@ using Mini_Inventory_Control.Properties;
 namespace Mini_Inventory_Control
 {
     [DesignerGenerated()]
-    public partial class InventoryControlForm : Form
+    public partial class InventoryControlMainWindow : Form
     {
 
         // Form overrides dispose to clean up the component list.
@@ -40,7 +40,7 @@ namespace Mini_Inventory_Control
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InventoryControlForm));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(InventoryControlMainWindow));
             this.btnEliminarS = new System.Windows.Forms.Button();
             this.Label6 = new System.Windows.Forms.Label();
             this.txtColaborador = new System.Windows.Forms.TextBox();
