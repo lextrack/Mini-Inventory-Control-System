@@ -10,10 +10,10 @@
     <ApplicationIcon>inventory.ico</ApplicationIcon>
     <Company>Lextrack</Company>
     <Copyright>Lextrack</Copyright>
-    <FileVersion>1.0.4</FileVersion>
+    <FileVersion>1.0.5</FileVersion>
     <Authors>Lextrack</Authors>
-    <AssemblyVersion>1.0.4</AssemblyVersion>
-    <Version>1.0.4</Version>
+    <AssemblyVersion>1.0.5</AssemblyVersion>
+    <Version>1.0.5</Version>
     <UseWPF>True</UseWPF>
     <PlatformTarget>x64</PlatformTarget>
     <Configurations>Debug;Release</Configurations>
@@ -21,6 +21,10 @@
     <StartupObject>Mini_Inventory_Control.Program</StartupObject>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>True</Optimize>
   </PropertyGroup>
 
   <ItemGroup>

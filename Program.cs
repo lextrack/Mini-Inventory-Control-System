@@ -1,3 +1,7 @@
+using InventoryManagementSystem;
+using Mini_Inventory_Control.UI;
+using Mini_Inventory_Control.Properties;
+
 namespace Mini_Inventory_Control
 {
     internal static class Program
@@ -11,6 +15,7 @@ namespace Mini_Inventory_Control
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
+            Application.Run(new LoadingForm());
             Application.Run(new InventoryControlMainWindow());
         }
     }

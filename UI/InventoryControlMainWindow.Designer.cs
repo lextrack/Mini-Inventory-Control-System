@@ -368,7 +368,7 @@ namespace Mini_Inventory_Control
             // 
             // DateTimePicker1
             // 
-            this.DateTimePicker1.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.DateTimePicker1.CalendarFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DateTimePicker1.CustomFormat = "MM-dd-yyyy";
             this.DateTimePicker1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
@@ -679,7 +679,7 @@ namespace Mini_Inventory_Control
             this.Panel1.Size = new System.Drawing.Size(1190, 37);
             this.Panel1.TabIndex = 1;
             // 
-            // InventoryControlForm
+            // InventoryControlMainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -725,8 +725,7 @@ namespace Mini_Inventory_Control
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.MaximizeBox = false;
-            this.Name = "InventoryControlForm";
+            this.Name = "InventoryControlMainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Mini Inventory Control System";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.InventoryControlForm_FormClosed);

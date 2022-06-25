@@ -131,9 +131,9 @@ namespace Mini_Inventory_Control
 
         public void ExcelWoorkshetF(string NombreTabla)
         {
-            string Ruta = Path.Combine(Directory.GetCurrentDirectory(), "database.xlsm");
+            string dbPath = Path.Combine(Directory.GetCurrentDirectory(), "database.xlsm");
             xlibro = (Microsoft.Office.Interop.Excel.Application)Interaction.CreateObject("Excel.Application");
-            xlibro.Workbooks.Open(Ruta);
+            xlibro.Workbooks.Open(dbPath);
             xlibro.Visible = false;
             xlibro.Sheets[NombreTabla].Select();
         }
@@ -226,6 +226,12 @@ namespace Mini_Inventory_Control
         {
             AboutForm NewAbout = new AboutForm();
             NewAbout.ShowDialog();
+        }
+
+        private void generateBarcodeAndQRCodesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            BarQrMainWindow NewMainWindowBarQr = new BarQrMainWindow();
+            NewMainWindowBarQr.ShowDialog();
         }
 
         private void btnNuevo_MouseHover(object sender, EventArgs e)
@@ -325,10 +331,5 @@ namespace Mini_Inventory_Control
             Settings.Default.Save();
         }
         #endregion
-        private void generateBarcodeAndQRCodesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            BarQrMainWindow NewMainWindowBarQr = new BarQrMainWindow();
-            NewMainWindowBarQr.ShowDialog();
-        }
     }
 }
