@@ -86,7 +86,7 @@ namespace InventoryManagementSystem
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(37, 15);
             this.label2.TabIndex = 4;
-            this.label2.Text = "v1.0.5";
+            this.label2.Text = "v1.0.6";
             // 
             // label3
             // 

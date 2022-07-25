@@ -51,11 +51,11 @@
             // lbQr
             // 
             this.lbQr.AutoSize = true;
-            this.lbQr.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbQr.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbQr.ForeColor = System.Drawing.SystemColors.Control;
             this.lbQr.Location = new System.Drawing.Point(382, 39);
             this.lbQr.Name = "lbQr";
-            this.lbQr.Size = new System.Drawing.Size(36, 21);
+            this.lbQr.Size = new System.Drawing.Size(35, 21);
             this.lbQr.TabIndex = 0;
             this.lbQr.Text = "QR:";
             // 
@@ -97,11 +97,11 @@
             // lbBar
             // 
             this.lbBar.AutoSize = true;
-            this.lbBar.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbBar.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.lbBar.ForeColor = System.Drawing.SystemColors.Control;
             this.lbBar.Location = new System.Drawing.Point(12, 39);
             this.lbBar.Name = "lbBar";
-            this.lbBar.Size = new System.Drawing.Size(75, 21);
+            this.lbBar.Size = new System.Drawing.Size(69, 21);
             this.lbBar.TabIndex = 11;
             this.lbBar.Text = "Barcode:";
             // 
@@ -131,11 +131,11 @@
             this.leerUnCódigoQRODeBarraToolStripMenuItem.BackColor = System.Drawing.Color.Gray;
             this.leerUnCódigoQRODeBarraToolStripMenuItem.ForeColor = System.Drawing.SystemColors.Control;
             this.leerUnCódigoQRODeBarraToolStripMenuItem.Name = "leerUnCódigoQRODeBarraToolStripMenuItem";
-            this.leerUnCódigoQRODeBarraToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.leerUnCódigoQRODeBarraToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.leerUnCódigoQRODeBarraToolStripMenuItem.Text = "Scan QR codes";
             this.leerUnCódigoQRODeBarraToolStripMenuItem.Click += new System.EventHandler(this.leerUnCódigoQRODeBarraToolStripMenuItem_Click);
             // 
-            // MainWindowBarQr
+            // BarQrMainWindow
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.WindowFrame;
@@ -152,7 +152,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.MaximizeBox = false;
-            this.Name = "MainWindowBarQr";
+            this.Name = "BarQrMainWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Barcode and QR code generator";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainWindowBarQr_FormClosed);
